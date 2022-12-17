@@ -1,3 +1,7 @@
-#vamos por partes pessoal
+from PySimpleGUI import PySimpleGUI as sg
 
-print('vamos por partes')
+class Banco:
+    #login
+    login = [
+
+    ]
