@@ -8,5 +8,4 @@ class Banco:
     layout = [
         [sg.Button('Login')],
         [sg.Button('Cadastra-se')]
-
     ]
