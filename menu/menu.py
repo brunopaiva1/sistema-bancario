@@ -4,8 +4,8 @@ sg.theme('DarkBlue3')
 class Banco:
     def __init__(self) -> None:
         pass
-    #login
+    #layout
     layout = [
-        [sg.Button('Login')],
-        [sg.Button('Cadastra-se')]
+        [sg.Button('Login')], #botão para login
+        [sg.Button('Cadastra-se')] #botão para cadastra-se
     ]
