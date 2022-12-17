@@ -6,6 +6,8 @@ class Banco:
         pass
     #layout
     layout = [
-        [sg.Button('Login')], #botão para login
-        [sg.Button('Cadastra-se')] #botão para cadastra-se
+        [sg.Button('Login'), sg.Input(key='login')], #botão para login
+        [sg.Button('Cadastra-se'), sg.Input(key='cadastrar')] #botão para cadastra-se
     ]
+
+
